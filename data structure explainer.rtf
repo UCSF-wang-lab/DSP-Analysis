@@ -1,0 +1,63 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Teensy_PreprocessedAndAligned files are associated/aligned/harmonized with LFP_PreprocessedAndAligned.\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 Teensy_PreprocessedAndAligned vars:\
+id - subject\
+treatment - condition\
+day - experimental session\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 behavioral - extracted table of trial marker points\
+\'97for explanation of block, cue_rep and rep columns, SEE FILE \'93block rep coding table.m\'94\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 data_teensy - full teensy data stream (after being downsampled and harmonized w LFP data)\
+fs - sample rate\
+time - in seconds\
+seqs - sequences\
+n_blocks - total blocks in task\
+n_reps - repetitions per block\
+block_order - order tha sequences were practiced\
+prox_to_use - proximity sensors considered when determining overall onset/offset times\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+\
+cue_rep\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 key_onset - column in behavioral table that corresponds to key onset times\
+key_offset - column in behavioral table that corresponds to key offset times\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 fk_onset - column in behavioral table that corresponds to FSR onset times\
+fk_offset - column in behavioral table that corresponds to FSR offset times\
+overall_onset - column in behavioral table that corresponds to overall onset times\
+overall_offset - column in behavioral table that corresponds to overall offset times\
+\
+FSR onset/offset were sometimes defaulted to key onset/offset times if certain criteria were met.\
+overall onset/offset times usually were determined based on proximity sensors but sometimes defaulted to what was used for FSR onset/offset times if certain criteria were met.\
+\
+\
+\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 LFP_PreprocessedAndAligned vars:\
+channel_align - channel that was used to align the data\
+contacts - names of channels\
+day - experimental session\
+fs - sample rate\
+id - subject\
+lfp - neural data stream\
+n_chan - number of neural recording channels\
+time - in seconds\
+treatment - condition\
+\
+\
+\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+}
